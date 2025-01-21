@@ -1,0 +1,104 @@
+/* style.css */
+
+/* Mengubah background halaman secara keseluruhan */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, rgba(255, 87, 34, 1) 0%, rgba(255, 193, 7, 1) 100%);
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, rgba(0, 123, 255, 0.8), rgba(40, 167, 69, 0.8)), url('images/hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 60px 0;
+}
+
+/* Layanan Section */
+section.py-5.bg-light {
+    background: #f1f3f5;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #495057;
+}
+
+/* Card Image Hover */
+img.img-fluid {
+    transition: transform 0.3s ease-in-out;
+}
+
+img.img-fluid:hover {
+    transform: scale(1.05);
+}
+
+/* Card Text */
+h4 {
+    color: #ff5722;
+    font-weight: bold;
+}
+
+/* Tombol */
+.btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Footer */
+footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Form Kontak */
+form .form-label {
+    font-weight: bold;
+}
+
+form .form-control {
+    border-radius: 8px;
+}
+
+form button {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+form button:hover {
+    background-color: #138496;
+    border-color: #117a8b;
+}
+
+/* Animasi Fade-In */
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Footer Social Media */
+.social-icons a {
+    font-size: 24px;
+    color: #f8f9fa;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ff5722;
+}
